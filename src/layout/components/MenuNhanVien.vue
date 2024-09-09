@@ -1,4 +1,4 @@
-<template >
+<template>
     <div class="nav-container primary-menu">
         <div class="mobile-topbar-header">
             <div>
@@ -13,11 +13,56 @@
         <nav class="navbar navbar-expand-xl w-100">
             <ul class="navbar-nav justify-content-start flex-grow-1 gap-1">
                 <li class="nav-item">
-                    <router-link to="/nhan-vien/nhan-vien">
-                        <a class="nav-link" href="/nhan-vien/nhan-vien">
+                    <router-link to="/">
+                        <a class="nav-link" href="/">
                             <div class="parent-icon"><i class="fa-solid fa-address-book"></i>
                             </div>
-                            <div class="menu-title">Nhân Viên</div>
+                            <div class="menu-title">Thực Đơn</div>
+                        </a>
+                    </router-link>
+                </li>
+                <li class="nav-item">
+                    <router-link to="/nhan-vien/thanh-toan">
+                        <a class="nav-link" href="/">
+                            <div class="parent-icon"><i class="fa-solid fa-address-book"></i>
+                            </div>
+                            <div class="menu-title">Thanh Toán</div>
+                        </a>
+                    </router-link>
+                </li>
+                <li class="nav-item">
+                    <router-link to="/nhan-vien/xuat-hoa-don">
+                        <a class="nav-link" href="/">
+                            <div class="parent-icon"><i class="fa-solid fa-address-book"></i>
+                            </div>
+                            <div class="menu-title">Hóa Đơn</div>
+                        </a>
+                    </router-link>
+                </li>
+                <li class="nav-item">
+                    <router-link to="/nhan-vien/Khuyen-mai">
+                        <a class="nav-link" href="/">
+                            <div class="parent-icon"><i class="fa-solid fa-address-book"></i>
+                            </div>
+                            <div class="menu-title">Sales</div>
+                        </a>
+                    </router-link>
+                </li>
+                <li class="nav-item">
+                    <router-link to="/nhan-vien/kho-hang">
+                        <a class="nav-link" href="/">
+                            <div class="parent-icon"><i class="fa-solid fa-address-book"></i>
+                            </div>
+                            <div class="menu-title">Kho Hàng</div>
+                        </a>
+                    </router-link>
+                </li>
+                <li class="nav-item">
+                    <router-link to="/nhan-vien/bao-cao-thong-ke">
+                        <a class="nav-link" href="/">
+                            <div class="parent-icon"><i class="fa-solid fa-address-book"></i>
+                            </div>
+                            <div class="menu-title">Báo Cáo Thống Kê</div>
                         </a>
                     </router-link>
                 </li>
@@ -30,6 +75,4 @@ export default {
 
 }
 </script>
-<style >
-    
-</style>
+<style></style>
