@@ -19,18 +19,23 @@ const routes = [
          meta: { layout: "nv" },
     },
     {
-        path : '/nhan-vien/khuyen-mai',
-        component: ()=>import('../components/WebQuanLyCoffen/NhanVien/KhuyenMai/index.vue'),
-         meta: { layout: "nv" },
-    },
-    {
         path : '/nhan-vien/kho-hang',
         component: ()=>import('../components/WebQuanLyCoffen/NhanVien/KhoHang/index.vue'),
          meta: { layout: "nv" },
     },
     {
-        path : '/nhan-vien/bao-cao-thong-ke',
-        component: ()=>import('../components/WebQuanLyCoffen/NhanVien/BaoCaoThongKe/index.vue'),
+        path : '/nhan-vien/Kiem-Kho',
+        component: ()=>import('../components/WebQuanLyCoffen/NhanVien/KiemKho/index.vue'),
+         meta: { layout: "nv" },
+    },
+    {
+        path : '/nhan-vien/nhap-Kho',
+        component: ()=>import('../components/WebQuanLyCoffen/NhanVien/NhapKho/index.vue'),
+         meta: { layout: "nv" },
+    },
+    {
+        path : '/nhan-vien/xuat-Kho',
+        component: ()=>import('../components/WebQuanLyCoffen/NhanVien/XuatKho/index.vue'),
          meta: { layout: "nv" },
     },
   

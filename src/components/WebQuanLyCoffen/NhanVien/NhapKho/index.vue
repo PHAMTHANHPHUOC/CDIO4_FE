@@ -1,6 +1,6 @@
 <template lang="">
   <div>
-    q1
+    
   </div>
 </template>
 <script>

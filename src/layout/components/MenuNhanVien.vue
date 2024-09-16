@@ -40,15 +40,6 @@
                     </router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link to="/nhan-vien/Khuyen-mai">
-                        <a class="nav-link" href="/">
-                            <div class="parent-icon"><i class="fa-solid fa-address-book"></i>
-                            </div>
-                            <div class="menu-title">Sales</div>
-                        </a>
-                    </router-link>
-                </li>
-                <li class="nav-item">
                     <router-link to="/nhan-vien/kho-hang">
                         <a class="nav-link" href="/">
                             <div class="parent-icon"><i class="fa-solid fa-address-book"></i>
@@ -57,12 +48,31 @@
                         </a>
                     </router-link>
                 </li>
+
                 <li class="nav-item">
-                    <router-link to="/nhan-vien/bao-cao-thong-ke">
+                    <router-link to="/nhan-vien/nhap-kho">
                         <a class="nav-link" href="/">
                             <div class="parent-icon"><i class="fa-solid fa-address-book"></i>
                             </div>
-                            <div class="menu-title">Báo Cáo Thống Kê</div>
+                            <div class="menu-title">Nhập Kho</div>
+                        </a>
+                    </router-link>
+                </li>
+                <li class="nav-item">
+                    <router-link to="/nhan-vien/xuat-kho">
+                        <a class="nav-link" href="/">
+                            <div class="parent-icon"><i class="fa-solid fa-address-book"></i>
+                            </div>
+                            <div class="menu-title">Xuất Kho</div>
+                        </a>
+                    </router-link>
+                </li>
+                <li class="nav-item">
+                    <router-link to="/nhan-vien/kiem-kho">
+                        <a class="nav-link" href="/">
+                            <div class="parent-icon"><i class="fa-solid fa-address-book"></i>
+                            </div>
+                            <div class="menu-title">Kiểm Kho</div>
                         </a>
                     </router-link>
                 </li>
