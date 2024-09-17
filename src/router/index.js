@@ -8,11 +8,7 @@ const routes = [
         component: ()=>import('../components/WebQuanLyCoffen/NhanVien/HienThiThucDon/index.vue'),
          meta: { layout: "nv" },
     },
-    {
-        path : '/nhan-vien/thanh-toan',
-        component: ()=>import('../components/WebQuanLyCoffen/NhanVien/ThanhToan/index.vue'),
-         meta: { layout: "nv" },
-    },
+   
     {
         path : '/nhan-vien/xuat-hoa-don',
         component: ()=>import('../components/WebQuanLyCoffen/NhanVien/XuatHoaDon/index.vue'),

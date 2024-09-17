@@ -82,7 +82,7 @@
             <div class="row">
               <div class="col-lg-10"></div>
               <div class="col-lg-2">
-                <button class="btn btn-primary form-control mt-3" style="height: 40px; width: 200px;">Thanh
+                <button class="btn btn-primary form-control mt-3" style="height: 40px; width: 130px;">Thanh
                   Toán</button>
 
               </div>
@@ -125,6 +125,238 @@
 
       </div>
     </div>
+    <div class="col-lg-2">
+      <div class="card">
+        <img class="img-fluid" src="https://caphemuoi.com.vn/wp-content/uploads/2023/01/6.png" alt="">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-lg-5">
+              <b>Cà Phê Muối</b>
+            </div>
+            <div class="col-lg-7">
+              <b>Giá Bán : 25.000đ</b>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-7"></div>
+            <div class="col-lg-5"><button class="btn btn-primary form-control "><i
+                  class="fa-solid fa-plus"></i></button></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-lg-2">
+      <div class="card">
+        <img class="img-fluid" src="https://caphemuoi.com.vn/wp-content/uploads/2023/01/6.png" alt="">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-lg-5">
+              <b>Cà Phê Muối</b>
+            </div>
+            <div class="col-lg-7">
+              <b>Giá Bán : 25.000đ</b>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-7"></div>
+            <div class="col-lg-5"><button class="btn btn-primary form-control "><i
+                  class="fa-solid fa-plus"></i></button></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-lg-2">
+      <div class="card">
+        <img class="img-fluid" src="https://caphemuoi.com.vn/wp-content/uploads/2023/01/6.png" alt="">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-lg-5">
+              <b>Cà Phê Muối</b>
+            </div>
+            <div class="col-lg-7">
+              <b>Giá Bán : 25.000đ</b>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-7"></div>
+            <div class="col-lg-5"><button class="btn btn-primary form-control "><i
+                  class="fa-solid fa-plus"></i></button></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-lg-2">
+      <div class="card">
+        <img class="img-fluid" src="https://caphemuoi.com.vn/wp-content/uploads/2023/01/6.png" alt="">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-lg-5">
+              <b>Cà Phê Muối</b>
+            </div>
+            <div class="col-lg-7">
+              <b>Giá Bán : 25.000đ</b>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-7"></div>
+            <div class="col-lg-5"><button class="btn btn-primary form-control "><i
+                  class="fa-solid fa-plus"></i></button></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-lg-2">
+      <div class="card">
+        <img class="img-fluid" src="https://caphemuoi.com.vn/wp-content/uploads/2023/01/6.png" alt="">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-lg-5">
+              <b>Cà Phê Muối</b>
+            </div>
+            <div class="col-lg-7">
+              <b>Giá Bán : 25.000đ</b>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-7"></div>
+            <div class="col-lg-5"><button class="btn btn-primary form-control "><i
+                  class="fa-solid fa-plus"></i></button></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-lg-2">
+      <div class="card">
+        <img class="img-fluid" src="https://caphemuoi.com.vn/wp-content/uploads/2023/01/6.png" alt="">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-lg-5">
+              <b>Cà Phê Muối</b>
+            </div>
+            <div class="col-lg-7">
+              <b>Giá Bán : 25.000đ</b>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-7"></div>
+            <div class="col-lg-5"><button class="btn btn-primary form-control "><i
+                  class="fa-solid fa-plus"></i></button></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-lg-2">
+      <div class="card">
+        <img class="img-fluid" src="https://caphemuoi.com.vn/wp-content/uploads/2023/01/6.png" alt="">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-lg-5">
+              <b>Cà Phê Muối</b>
+            </div>
+            <div class="col-lg-7">
+              <b>Giá Bán : 25.000đ</b>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-7"></div>
+            <div class="col-lg-5"><button class="btn btn-primary form-control "><i
+                  class="fa-solid fa-plus"></i></button></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-lg-2">
+      <div class="card">
+        <img class="img-fluid" src="https://caphemuoi.com.vn/wp-content/uploads/2023/01/6.png" alt="">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-lg-5">
+              <b>Cà Phê Muối</b>
+            </div>
+            <div class="col-lg-7">
+              <b>Giá Bán : 25.000đ</b>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-7"></div>
+            <div class="col-lg-5"><button class="btn btn-primary form-control "><i
+                  class="fa-solid fa-plus"></i></button></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-lg-2">
+      <div class="card">
+        <img class="img-fluid" src="https://caphemuoi.com.vn/wp-content/uploads/2023/01/6.png" alt="">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-lg-5">
+              <b>Cà Phê Muối</b>
+            </div>
+            <div class="col-lg-7">
+              <b>Giá Bán : 25.000đ</b>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-7"></div>
+            <div class="col-lg-5"><button class="btn btn-primary form-control "><i
+                  class="fa-solid fa-plus"></i></button></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-lg-2">
+      <div class="card">
+        <img class="img-fluid" src="https://caphemuoi.com.vn/wp-content/uploads/2023/01/6.png" alt="">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-lg-5">
+              <b>Cà Phê Muối</b>
+            </div>
+            <div class="col-lg-7">
+              <b>Giá Bán : 25.000đ</b>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-7"></div>
+            <div class="col-lg-5"><button class="btn btn-primary form-control "><i
+                  class="fa-solid fa-plus"></i></button></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-lg-2">
+      <div class="card">
+        <img class="img-fluid" src="https://caphemuoi.com.vn/wp-content/uploads/2023/01/6.png" alt="">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-lg-5">
+              <b>Cà Phê Muối</b>
+            </div>
+            <div class="col-lg-7">
+              <b>Giá Bán : 25.000đ</b>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-7"></div>
+            <div class="col-lg-5"><button class="btn btn-primary form-control "><i
+                  class="fa-solid fa-plus"></i></button></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+   
 
   </div>
 

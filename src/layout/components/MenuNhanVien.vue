@@ -22,15 +22,6 @@
                     </router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link to="/nhan-vien/thanh-toan">
-                        <a class="nav-link" href="/">
-                            <div class="parent-icon"><i class="fa-solid fa-address-book"></i>
-                            </div>
-                            <div class="menu-title">Thanh Toán</div>
-                        </a>
-                    </router-link>
-                </li>
-                <li class="nav-item">
                     <router-link to="/nhan-vien/xuat-hoa-don">
                         <a class="nav-link" href="/">
                             <div class="parent-icon"><i class="fa-solid fa-address-book"></i>
