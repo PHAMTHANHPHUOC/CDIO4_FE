@@ -1,4 +1,4 @@
-<template >
+<template>
     <div class="nav-container primary-menu">
         <div class="mobile-topbar-header">
             <div>
@@ -13,15 +13,15 @@
         <nav class="navbar navbar-expand-xl w-100">
             <ul class=" navbar-nav justify-content-start flex-grow-1 gap-1">
                 <li class="nav-item">
-                    
-                        <a class="nav-link" >
-                            <div class="parent-icon"><i class="fa-solid fa-user"></i>
-                            </div>
-                            <div class="menu-title">ADMIN</div>
-                        </a>
-                 
-                </li>             
-               
+
+                    <a class="nav-link">
+                        <div class="parent-icon"><i class="fa-solid fa-user"></i>
+                        </div>
+                        <div class="menu-title">ADMIN</div>
+                    </a>
+
+                </li>
+
                 <li class="nav-item">
                     <router-link to="/cdio/admin/danh-sach-khuyen-mai">
                         <a class="nav-link" href="/cdio/admin/danh-sach-khuyen-mai">
@@ -31,7 +31,7 @@
                         </a>
                     </router-link>
                 </li>
-                
+
                 <li class="nav-item">
                     <router-link to="/cdio/admin/danh-muc">
                         <a class="nav-link" href="/cdio/admin/danh-muc">
@@ -68,6 +68,4 @@ export default {
 
 }
 </script>
-<style >
-    
-</style>
+<style></style>

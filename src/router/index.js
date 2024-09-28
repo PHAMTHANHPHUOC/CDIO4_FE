@@ -8,6 +8,17 @@ const routes = [
         component: ()=>import('../components/WebQuanLyCoffen/NhanVien/HienThiThucDon/index.vue'),
          meta: { layout: "nv" },
     },
+     {
+        path : '/trang-chu/danh-sach-san-pham',
+        component: ()=>import('../components/WebQuanLyCoffen/NhanVien/HienThiThucDon/DanhSachSanPham.vue'),
+        meta : {layout : 'nv'}
+    },
+    {
+        path : '/danh-sach-san-pham/:id_danh_muc-:slug_danh_muc',
+        component: ()=>import('../components/WebQuanLyCoffen/NhanVien/HienThiThucDon/DanhSachSanPham.vue'),
+        meta : {layout : 'nv'},
+        props: true
+    },
    
     {
         path : '/nhan-vien/xuat-hoa-don',
@@ -34,7 +45,7 @@ const routes = [
         component: ()=>import('../components/WebQuanLyCoffen/NhanVien/XuatKho/index.vue'),
          meta: { layout: "nv" },
     },
-  
+    
 ]
 
 

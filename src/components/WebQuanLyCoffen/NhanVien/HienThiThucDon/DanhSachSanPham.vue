@@ -1,146 +1,12 @@
 <template>
   <div class="row">
-    <div class="col-lg-5">
-      <div class="card">
-        <div class="card-header">
-          <div class="row">
-            <div class="col-lg-11">
-              <h3>Danh Mục Thanh Toán</h3>
-            </div>
-            <div class="col-lg-1">
-            </div>
-          </div>
-        </div>
-        <div class="card-body">
-          <div class="table">
-            <table class="table table-bordered">
-              <thead>
-                <tr>
-                  <th>Sản Phẩm</th>
-                  <th>Số lượng</th>
-                  <th>Thành tiền</th>
-                  <th>Xuất Hóa Đơn</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Tên Sản Phẩm</td>
-                  <td>Số Lượng</td>
-                  <td>100.000đ</td>
-                  <td><button class="btn btn-primary form-control">Xuất Hóa Đơn</button>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-7">
-      <div class="card">
-        <div class="card-header">
-          <h3> Hóa Đơn Thanh Toán</h3>
-        </div>
-        <div class="card-body ">
-          <h3 class="text-center"></h3>
-          <b>Địa chỉ : </b> 408 Hoàng Diệu, Quận Hải Châu, thành phố Đà Nẵng<br>
-          <div class="table">
-            <table class="table table-bordered ">
-              <thead>
-                <tr>
-                  <th>TT</th>
-                  <th>Tên Món</th>
-                  <th>Số Lượng</th>
-                  <th>Đơn Giá</th>
-                  <th>Thành Tiền</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="row">
-            <div class="col-lg-3">
-              <b>Tổng Thành Tiền :</b><br>
-              <b>VAT(100%) :</b><br>
-              <b>Tổng Cộng :</b><br>
-              <b>Tiền Khách Trả :</b>
-            </div>
-            <div class="col-lg-9">
-              <b>xxx.đ</b><br>
-              <b>xxx.đ</b><br>
-              <b>xxx.đ</b><br>
-              <b>xxx.đ</b>
-            </div>
-            <div class="row">
-              <div class="col-lg-10"></div>
-              <div class="col-lg-2">
-                <button class="btn btn-primary form-control mt-3" style="height: 40px; width: 130px;">Thanh
-                  Toán</button>
-
-              </div>
-
-            </div>
-          </div>
-          <hr>
-          <div class="row">
-            <div class="col-lg-4"></div>
-            <div class="col-lg-4">
-              <b>Xin cảm ơn , hẹn gặp lại quý khách!</b>
-            </div>
-            <div class="col-lg-4"></div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <nav class="navbar navbar-expand-xl w-100">
-    <ul class="navbar-nav justify-content-start flex-grow-1 gap-1">
-      <ul class="navbar-nav justify-content-start flex-grow-1 gap-1">
-        <template v-for="(value, key) in list_danh_muc" :key="key">
-          <template v-if="value.id_danh_muc_cha == 0">
-            <li class="nav-item dropdown">
-              <a href="/trang-chu/danh-sach-san-pham" class="nav-link dropdown-toggle dropdown-toggle-nocaret"
-                data-bs-toggle="dropdown">
-
-                <img v-bind:src="value.hinh_anh" class="user-img me-1">
-                <div class="menu-title">{{ value.ten_danh_muc }}</div>
-              </a>
-              <ul class="dropdown-menu">
-                <template v-for="(v, k) in list_danh_muc" :key="k">
-                  <router-link :to="'/danh-sach-san-pham/' + v.id + '-' + v.slug_danh_muc">
-                    <a v-if="value.id == v.id_danh_muc_cha" class="dropdown-item">
-                      {{ v.ten_danh_muc }}
-                    </a>
-                  </router-link>
-                </template>
-              </ul>
-            </li>
-          </template>
-        </template>
-      </ul>
-    </ul>
-  </nav>
-
-  <div class="row">
     <div class="col-12">
       <div class="card">
         <div class="card-body">
           <div class="row align-items-center">
             <div class="col-lg-5 col-xl-5">
-
-
+              <h4 class="text-secondary"><b>{{ danh_muc.ten_danh_muc }}</b></h4>
+              <!-- <h4 class="text-secondary"><b>Thiết Bị Điện Tử</b></h4> -->
             </div>
             <div class="col-lg-7 col-xl-7">
               <form class="float-lg-end">
@@ -210,31 +76,25 @@
     </div>
   </div>
 
-
-
-
-
-
-
-
-
   <div class="row mb-4">
     <div class="card">
       <div class="card-body">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 product-grid ">
-          <template v-for="(v, k) in list_san_pham">
+          <template v-for="(value, index) in list" :key="index">
             <div class="col-lg-3 align-items-stretch mb-3">
+
               <div class="card h-100">
-                <img v-bind:src="v.hinh_anh" style="height: 315px;" class="card-img-top" alt="...">
+                <img v-bind:src="value.hinh_anh" style="min-height: 315px;" class="card-img-top" alt="...">
                 <div class="">
                   <div class="position-absolute top-0 end-0 m-3 product-discount"><span class="">-10%</span></div>
                 </div>
                 <div class="card-body">
-                  <h6 class="card-title cursor-pointer">{{ v.ten_san_pham }}</h6>
+                  <h6 class="card-title cursor-pointer">{{ value.ten_san_pham }}</h6>
                   <div class="clearfix">
-                    <p class="mb-0 float-start"><strong>{{ v.so_luong }}</strong> Sales</p>
+                    <p class="mb-0 float-start"><strong>{{ value.so_luong }}</strong> Sales</p>
                     <p class="mb-0 float-end fw-bold"><span class="me-2 text-decoration-line-through text-secondary">{{
-                      formatToVND(v.gia_ban) }}</span><span>{{ formatToVND(v.gia_khuyen_mai) }}</span></p>
+                      formatToVND(value.gia_ban) }}</span><span>{{
+                          formatToVND(value.gia_khuyen_mai) }}</span></p>
                   </div>
                   <div class="d-flex align-items-center mt-3 fs-6">
                     <div class="cursor-pointer">
@@ -242,59 +102,56 @@
                       <i class='bx bxs-star text-warning'></i>
                       <i class='bx bxs-star text-warning'></i>
                       <i class='bx bxs-star text-warning'></i>
-                      <i class='bx bxs-star text-warning'></i>
-                      <!-- <i class='bx bxs-star text-secondary'></i> -->
+                      <i class='bx bxs-star text-secondary'></i>
                     </div>
-                    <span class="mb-0 ms-auto"><button class="mb-0 ms-auto btn btn-primary form-control"><i
-                          class="fa-solid fa-plus"></i></button></span>
+                    <p class="mb-0 ms-auto">4.2(182)</p>
                   </div>
                 </div>
               </div>
+
             </div>
           </template>
         </div>
       </div>
     </div>
   </div>
-
 </template>
 <script>
 import axios from 'axios';
-import { createToaster } from "@meforma/vue-toaster";
-const toaster = createToaster({ position: "top-right" });
 import baseRequest from '../../../../core/baseRequest';
 export default {
+  props: ['id_danh_muc', 'slug_danh_muc'],
   data() {
     return {
-      list_san_pham: [],
-      list_danh_muc: []
+      list: [],
+      id_danh_muc: null,
+      danh_muc: {}
     }
   },
   mounted() {
+    this.id_danh_muc = this.$route.params.id_danh_muc;
     this.loadData();
-    this.loadDataDanhMuc();
+  },
+  beforeRouteUpdate(to, from, next) {
+    this.id_danh_muc = to.params.id_danh_muc;
+    this.loadData();
+    next();
   },
   methods: {
     formatToVND(number) {
       number = parseInt(number);
       return number.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' });
     },
+
     loadData() {
       baseRequest
-        .get('trang-chu/data')
+        .get('trang-chu/danh-sach-san-pham/' + this.id_danh_muc)
         .then((res) => {
-          this.list_san_pham = res.data.data
+          this.list = res.data.data;
+          this.danh_muc = res.data.danh_muc;
         })
     },
-    loadDataDanhMuc() {
-      baseRequest
-        .get('danh-muc/data')
-        .then((res) => {
-          this.list_danh_muc = res.data.data;
-        });
-    }
-
-  },
+  }
 }
 </script>
 <style></style>
